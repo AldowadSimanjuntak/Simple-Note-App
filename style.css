@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d8d7d7;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+h1 {
+    color: #333;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button#saveButton {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button#saveButton:hover {
+    background-color: #007AA8;
+    transform: scale(1.1);
+}
+
+.note-item {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+button.edit-button {
+    background-color: #FFC107;
+}
+
+button.delete-button {
+    background-color: #E74C3C;
+}
+
+button.show-more-button {
+    background-color: #4CAF50;
+}
+
+button.edit-button:hover {
+    background-color: #FFA000;
+    transform: scale(1.05);
+}
+
+button.delete-button:hover {
+    background-color: #D63027;
+    transform: scale(1.05);
+}
+
+button.show-more-button:hover {
+    background-color: #45A049;
+    transform: scale(1.05);
+}
+
+button.confirm-button {
+    background-color: #008CBA;
+}
+
+button.confirm-button {
+    background-color: #007AA8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button.confirm-button:hover {
+    background-color: #007AA8;
+    transform: scale(1.1);
+}
+
+.note-item {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.notification {
+    position: relative;
+    bottom: 0px;
+    left: 10px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.5s, background-color 0.3s;
+    opacity: 0;
+    z-index: 1;
+    display: inline-block;
+}
+
+.notification.show {
+    opacity: 1;
+}
+
+/* Tambahkan CSS untuk tombol "Salin" */
+button.copy-button {
+    background-color: #008CBA;
+    display: none;
+}
+
+button.copy-button:hover {
+    background-color: #007AA8;
+    transform: scale(1.1);
+}
+
+/* CSS footer */
+footer {
+    text-align: center;
+    background-color: #bbb9b9;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Tambahkan CSS untuk tombol "Salin" */
+button.copy-button {
+    background-color: #008CBA;
+    display: none; /* Tombol "Salin" sembunyi secara default */
+}
+
+/* Tambahkan CSS untuk tombol "Salin" dalam mode edit */
+.note-item.editing .copy-button {
+    display: none;
+}
+
+/* Tambahkan CSS untuk tombol "Salin" dalam mode normal (tidak edit) */
+.note-item:not(.editing) .copy-button {
+    display: inline-block;
+}
