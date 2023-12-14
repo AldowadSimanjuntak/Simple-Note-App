@@ -1,6 +1,6 @@
-# Welcome Note App
+# Welcome Simple Note App
 
-Welcome to the Note application! This is a simple note-taking application where you can effortlessly create, edit, delete, and copy text for your convenience.
+Welcome to the Note application! This is a simple note-taking application where you can  create, edit, delete, and copy text for your convenience.
 
 
 ## Technologies Used
