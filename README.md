@@ -22,7 +22,7 @@ To get started with the Welcome Note app, follow these steps:
       npm install
 ### Run the application
     node server.js
-### Now, you can access the  Note app by navigating to http://localhost:3000 in your web browser.
+## Now, you can access the  Note app by navigating to 'http://localhost:3000' in your web browser.
 Feel free to explore the application and make use of its features for efficient note-taking! If you encounter any issues or have suggestions, please let me know.
 
 # Preview 
